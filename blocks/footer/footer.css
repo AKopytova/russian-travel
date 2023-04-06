@@ -1,9 +1,11 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
   align-items: center;
   margin: 0 auto 24px auto;
   max-width: 1184px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1215px) {

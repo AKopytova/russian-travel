@@ -6,20 +6,30 @@
   margin: 0 auto 32px auto;
   padding: 0;
   max-width: 560px;
+  position: relative;
+  z-index: 1;
+ 
 }
 
-@media screen and (max-widtgh: 760px) {
+
+@media(width < 1024px) {
+  .cover__title {
+    font-size: 45px;
+  }
+} 
+
+@media screen and (max-width: 760px) {
   .cover__title {
     font-size: 48px;
     line-height: 56px;
     margin: 0 auto 24px auto;
   }
 }
-@media screen and (max-widtgh: 550px) {
+@media screen and (max-width: 550px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 auto 16px auto;
     max-width: 288px;
+    margin: 0 auto 16px auto;
   }
 }
