@@ -8,15 +8,7 @@
   max-width: 560px;
   position: relative;
   z-index: 1;
- 
-}
-
-
-@media(width < 1024px) {
-  .cover__title {
-    font-size: 45px;
-  }
-} 
+ }
 
 @media screen and (max-width: 760px) {
   .cover__title {
